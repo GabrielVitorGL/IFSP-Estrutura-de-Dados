@@ -1,5 +1,3 @@
-
-
 #include <stdio.h>
 
 float salarioBruto, salarioFamilia, vantagens, INSS, IRPF, Deducoes;
