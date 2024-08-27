@@ -1,28 +1,3 @@
-/*
-
-O objetivo agora é substituir variáveis globais por ponteiros.
-• Reescreva o programa da atividade 1, e agora não utilize mais variáveis globais, utilize 
-somente variáveis locais e a passagem por referência nos dois módulos. Todas as variáveis 
-devem ser declaradas dentro do main(), e somente as variáveis que receberão valores dentro 
-das funções (que receberão atribuições, ou seja, o resultado dos cálculos), deverão ter seus 
-endereços passados por referência. As demais variáveis que só entregam valores para cálculo, 
-devem ter sua passagem de forma normal, ou seja, por cópia. 
-• Entregue no Moodle com atividade 2.
-
-Módulo calculoVantagens(parâmetros para cálculo)
-    salarioBruto = numeroHoras * salarioHora;
-    salarioFamilia = numeroFilhos * valorPorFilho;
-    vantagens = salarioBruto + salarioFamilia;
-fim cálculoVantagens
-
-Módulo calculoDeduções(parâmetros para cálculo)
-    INSS = salarioBruto * 0,08;
-    IRPF = salarioBruto * taxaIR;
-    Deduções = INSS + IPRF;
-fim cálculoDeduções
-
-*/
-
 #include <stdio.h>
 
 void calculoVantagens(float numeroHoras, float salarioHora, int numeroFilhos, float valorPorFilho, float *salarioBruto, float *salarioFamilia, float *vantagens);
