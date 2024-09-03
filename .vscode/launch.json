@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Aluno/Documents/Nova Pasta/IFSP-Estrutura-de-Dados/Atividade Aula 2",
-      "program": "c:/Users/Aluno/Documents/Nova Pasta/IFSP-Estrutura-de-Dados/Atividade Aula 2/build/Debug/outDebug",
+      "cwd": "c:/Users/gabri/OneDrive/Documentos/GitHub/ifsp/IFSP-Estrutura-de-Dados/Atividade Aula 3",
+      "program": "c:/Users/gabri/OneDrive/Documentos/GitHub/ifsp/IFSP-Estrutura-de-Dados/Atividade Aula 3/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
