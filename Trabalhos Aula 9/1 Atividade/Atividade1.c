@@ -1,12 +1,9 @@
 #include <stdio.h>
-
-void calculoVantagens(float numeroHoras, float salarioHora, int numeroFilhos, float valorPorFilho, float *salarioBruto, float *salarioFamilia, float *vantagens);
-void calculoDeducoes(float salarioBruto, float taxaIR, float *INSS, float *IRPF, float *Deducoes);
-
+#include "calculos.h"
 
 // GABRIEL VITOR GROSSI LOURENÇO
 // GU3054446
-int main(){
+int main() {
     float numeroHoras, salarioHora, valorPorFilho, taxaIR;
     int numeroFilhos;
     float salarioBruto, salarioFamilia, vantagens, INSS, IRPF, Deducoes;
@@ -33,16 +30,4 @@ int main(){
     printf("Deducoes: %.2f\n", Deducoes);
 
     return 0;
-}
-
-void calculoVantagens(float numeroHoras, float salarioHora, int numeroFilhos, float valorPorFilho, float *salarioBruto, float *salarioFamilia, float *vantagens){
-    *salarioBruto = numeroHoras * salarioHora;
-    *salarioFamilia = numeroFilhos * valorPorFilho;
-    *vantagens = *salarioBruto + *salarioFamilia;
-}
-
-void calculoDeducoes(float salarioBruto, float taxaIR, float *INSS, float *IRPF, float *Deducoes){
-    *INSS = salarioBruto * 0.08;
-    *IRPF = salarioBruto * taxaIR;
-    *Deducoes = *INSS + *IRPF;
 }
