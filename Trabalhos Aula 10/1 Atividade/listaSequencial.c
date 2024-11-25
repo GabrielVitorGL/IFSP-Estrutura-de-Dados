@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "listaSequencial.h"
 
+// GABRIEL VITOR GROSSI LOURENÇO
+// GU3054446
 struct lista
 {
     int qtd;

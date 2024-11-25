@@ -1,5 +1,7 @@
 #define MAX 100
 
+// GABRIEL VITOR GROSSI LOURENÇO
+// GU3054446
 struct aluno
 {
     int matricula;
