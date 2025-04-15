@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/gabri/OneDrive/Documentos/GitHub/ifsp/IFSP-Estrutura-de-Dados/Trabalhos Aula 12/1 Atividade",
-      "program": "c:/Users/gabri/OneDrive/Documentos/GitHub/ifsp/IFSP-Estrutura-de-Dados/Trabalhos Aula 12/1 Atividade/build/Debug/outDebug",
+      "cwd": "c:/Users/gabri/OneDrive/Documentos/Documentos/GitHub/Estrutura-de-Dados/Tabela Hash",
+      "program": "c:/Users/gabri/OneDrive/Documentos/Documentos/GitHub/Estrutura-de-Dados/Tabela Hash/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
